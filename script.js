@@ -70,9 +70,9 @@ content.classList.add("main_container")
         </div>
       </div>
         `
-        const existingMainContainer = document.querySelector(".main_container");
-        if (existingMainContainer) {
-          existingMainContainer.remove();
+        const contt = document.querySelector(".main_container");
+        if (contt) {
+          contt.remove();
         }
         document.body.appendChild(content);
 
